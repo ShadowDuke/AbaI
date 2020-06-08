@@ -1,0 +1,459 @@
+buildings = {
+
+	# show_on_map:
+	#    if provincial = yes, then show_on_map = X is amount per each province
+	#    if provincial = no, then show_on_map = X is amount per state
+
+
+	infrastructure = {
+		base_cost = 3000
+		icon_frame = 4
+		infrastructure = yes
+		max_level = 10
+		value = 1
+		show_modifier = yes
+		max_fuel_building = 0.75 #k			 
+
+	}
+
+	arms_factory = {
+		show_on_map = 6
+		base_cost = 7200
+		base_cost_conversion = 4000
+		military_production = 1
+		icon_frame = 3
+		max_level = 20
+		shares_slots = yes
+		value = 8
+		infrastructure_construction_effect = yes
+	}
+
+	industrial_complex = {
+		show_on_map = 6
+		base_cost = 10800
+		base_cost_conversion = 6000
+		general_production = 1
+		icon_frame = 2
+		max_level = 20
+		shares_slots = yes
+		value = 5
+		infrastructure_construction_effect = yes
+	}
+	
+	research_complex = {
+		show_on_map = 1
+		base_cost = 20000
+		RESEARCH_SPEED_FACTOR = 0.02
+		RESEARCH_SHARING_PER_COUNTRY_BONUS_FACTOR = 0.02
+		LICENSE_PURCHASE_COST = -0.02
+		icon_frame = 30
+		max_level = 1
+		shares_slots = yes
+		value = 3
+	}
+	
+	situation_centre = {
+		show_on_map = 1
+		base_cost = 17500
+		COMMAND_POWER_GAIN = -0.04
+		LAND_REINFORCE_RATE = 0.01
+		LOCAL_INTEL_TO_ENEMIES = -0.01
+		ARMY_SPEED_FACTOR = 0.01
+		army_org_factor = 0.01
+		PLANNING_SPEED = 0.025
+		MAX_PLANNING = 0.001
+		LAND_NIGHT_ATTACK = 0.02
+		ENCRYPTION_FACTOR = 0.25
+		DECRYPTION_FACTOR = 0.25
+		icon_frame = 31
+		max_level = 1
+		damage_factor = 0.5
+		shares_slots = yes
+		disabled_in_dmz = yes
+		value = 5
+		infrastructure_construction_effect = yes
+	}
+	
+	war_complex = {
+		show_on_map = 1
+		base_cost = 7000
+		military_production = 1
+		production_speed_arms_factory_factor = 0.02
+		supply_consumption_factor = 0.008
+		attrition = 0.005					
+		industry_air_damage_factor = 0.01
+		icon_frame = 20
+		max_level = 5
+		damage_factor = 1.15
+		shares_slots = yes
+		value = 4
+		infrastructure_construction_effect = yes
+	}
+	
+	worker_complex = {
+		show_on_map = 1
+		base_cost = 2800
+		#general_production = 1
+		production_speed_industrial_complex_factor = 0.02
+		production_speed_war_complex_factor = 0.025
+		industrial_capacity_factory = 0.015
+		production_factory_max_efficiency_factor = 0.01
+		global_building_slots_factor = 0.02
+		industry_air_damage_factor = 0.01
+		damage_factor = 0.85
+		icon_frame = 1
+		max_level = 5
+		shares_slots = yes
+		value = 3
+		infrastructure_construction_effect = yes
+	}
+	
+	supply_complex = {
+		show_on_map = 1
+		base_cost = 9600
+		military_production = 1
+		#general_production = 1
+		army_org_factor = 0.01
+		army_morale_factor = 0.01
+		dig_in_speed_factor = 0.01
+		production_speed_war_complex_factor = 0.02
+		production_speed_supply_complex_factor = 0.05
+		supply_consumption_factor = -0.005
+		line_change_production_efficiency_factor = 0.025
+		industry_air_damage_factor = 0.01
+		damage_factor = 1.25
+		icon_frame = 21
+		max_level = 2
+		shares_slots = yes
+		value = 4
+		infrastructure_construction_effect = yes
+	}
+	
+	boot_camp = {
+		show_on_map = 0
+		base_cost = 4800
+		#dig_in_speed_factor = 0.03			
+		#conscription = 0.003				
+		experience_gain_army = 0.05
+		#experience_gain_army_factor = 0.02	
+		training_time_army_factor = -0.02
+		disabled_in_dmz = yes
+		icon_frame = 22
+		max_level = 1
+		shares_slots = yes
+		value = 1
+	}
+	
+	flight_school = {
+		show_on_map = 0
+		base_cost = 4800
+		air_accidents_factor = -0.02
+		#air_strategic_bomber_night_penalty = -0.03
+		air_ace_generation_chance_factor = 0.03
+		#air_nav_efficiency = 0.03
+		experience_gain_air = 0.05		
+		#experience_gain_air_factor = 0.02
+		#strategic_bomb_visibility = -0.03
+		#air_superiority_efficiency = 0.03
+		#air_cas_efficiency = 0.03
+		#air_interception_detect_factor = 0.03
+		disabled_in_dmz = yes
+		icon_frame = 23
+		max_level = 1
+		shares_slots = yes
+		value = 1
+	}
+	
+	submarine_school = {
+		show_on_map = 0
+		base_cost = 4800
+		#navy_submarine_attack_factor = 0.03
+		#navy_submarine_defence_factor = 0.03
+		#convoy_raiding_efficiency_factor = 0.03
+		#experience_gain_navy_factor = 0.02	
+		experience_gain_navy = 0.05	
+		#naval_production = 1
+		disabled_in_dmz = yes
+		#is_port = yes
+		only_costal = yes
+		icon_frame = 24
+		max_level = 1
+		shares_slots = yes
+		value = 1
+		infrastructure_construction_effect = yes
+	}
+	
+	recruiting_center = {
+		show_on_map = 0
+		base_cost = 5750
+		conscription = 0.005
+		minimum_training_level = -0.005
+		disabled_in_dmz = yes
+		icon_frame = 25
+		max_level = 1
+		shares_slots = yes
+		value = 1
+	}
+
+	air_base = {
+		show_on_map = 1
+		base_cost = 1250
+		icon_frame = 6
+		air_base = yes
+		max_level = 10
+		value = 1
+		damage_factor = 0.5
+	}
+	
+	propaganda_complex_democratism = {
+		show_on_map = 1
+		base_cost = 5400
+		#enemy_partisan_effect = -0.02
+  		foreign_subversive_activites = -0.015
+		democratic_drift = 0.05
+		political_power_gain = 0.02
+		#ai_call_ally_desire_factor = 1
+		#opinion_gain_monthly_same_ideology_factor = 0.1
+		#unity_weekly_factor = 0.01
+		#OPINION_GAIN_MONTHLY_FACTOR = 0.5
+		#drift_defence_factor = 0.1
+		stability_factor = 0.02
+		icon_frame = 26
+		max_level = 1
+		shares_slots = yes
+		disabled_in_dmz = yes
+		value = 1
+	}
+	
+	propaganda_complex_fascism = {
+		show_on_map = 1
+		base_cost = 5400
+		#enemy_partisan_effect = -0.02
+ 		foreign_subversive_activites = -0.015
+		fascism_drift = 0.05
+		political_power_gain = 0.02
+		#ai_call_ally_desire_factor = 1
+		#opinion_gain_monthly_same_ideology_factor = 0.1
+		#unity_weekly_factor = 0.01
+		#OPINION_GAIN_MONTHLY_FACTOR = 0.5
+		#drift_defence_factor = 0.1
+		stability_factor = 0.02
+		icon_frame = 27
+		max_level = 1
+		shares_slots = yes
+		disabled_in_dmz = yes
+		value = 1
+	}
+	
+	propaganda_complex_communism = {
+		show_on_map = 1
+		base_cost = 5400
+		#enemy_partisan_effect = -0.02
+ 		foreign_subversive_activites = -0.015
+		communism_drift = 0.05
+		political_power_gain = 0.02
+		#ai_call_ally_desire_factor = 1
+		#opinion_gain_monthly_same_ideology_factor = 0.1
+		#unity_weekly_factor = 0.01
+		#OPINION_GAIN_MONTHLY_FACTOR = 0.5
+		#drift_defence_factor = 0.1
+		stability_factor = 0.02
+		icon_frame = 28
+		max_level = 1
+		shares_slots = yes
+		disabled_in_dmz = yes
+		value = 1
+	}
+
+	naval_base = {
+		show_on_map = 1
+		show_on_map_meshes = 3
+		always_shown = yes
+		base_cost = 3000
+		provincial = yes
+		only_costal = yes
+		is_port = yes
+		icon_frame = 7
+		max_level = 10
+		value = 1
+	}
+
+	bunker = {
+		show_on_map = 1
+		has_destroyed_mesh = yes
+		base_cost = 500
+		per_level_extra_cost = 500
+		provincial = yes
+		disabled_in_dmz = yes
+		icon_frame = 8
+		land_fort = 1
+		max_level = 10
+		value = 1
+	}
+
+	coastal_bunker = {
+		show_on_map = 1
+		has_destroyed_mesh = yes
+		base_cost = 500
+		per_level_extra_cost = 500
+		provincial = yes
+		disabled_in_dmz = yes
+		only_costal = yes
+		icon_frame = 9
+		naval_fort = 1
+		max_level = 10
+		value = 1
+	}
+
+	dockyard = {
+		show_on_map = 1
+		show_on_map_meshes = 3
+		base_cost = 6400
+		only_costal = yes
+		naval_production = 1
+		icon_frame = 5
+		only_costal = yes
+		max_level = 20
+		shares_slots = yes
+		value = 5
+		infrastructure_construction_effect = yes
+	}
+	
+	anti_air_building = {
+		show_on_map = 3
+		base_cost = 2500
+		icon_frame = 10
+		anti_air = yes
+		disabled_in_dmz = yes
+		air_defence = 1
+		max_level = 5 # This is the max unlock level
+		damage_factor = 0.1
+		value = 1
+	}
+	
+	chromium_industry = {
+		show_on_map = 1
+		base_cost = 8750
+		icon_frame = 17
+		local_resources_chromium = 7 # May use local_resources_ + any resource name
+		refinery = yes
+		max_level = 2 # This is the max unlock level
+		shares_slots = yes
+		value = 4
+		infrastructure_construction_effect = yes
+	}
+	
+	tungsten_industry = {
+		show_on_map = 1
+		base_cost = 7250
+		icon_frame = 18
+		local_resources_tungsten = 7 # May use local_resources_ + any resource name
+		refinery = yes
+		max_level = 2 # This is the max unlock level
+		shares_slots = yes
+		value = 4
+		infrastructure_construction_effect = yes
+	}
+	
+	aluminium_industry = {
+		show_on_map = 1
+		base_cost = 7250
+		icon_frame = 19
+		local_resources_aluminium = 7 # May use local_resources_ + any resource name
+		refinery = yes
+		max_level = 2 # This is the max unlock level
+		shares_slots = yes
+		value = 4
+		infrastructure_construction_effect = yes
+	}
+	
+	steel_mill = {
+		show_on_map = 1
+		base_cost = 6750
+		icon_frame = 16
+		local_resources_steel = 7 # May use local_resources_ + any resource name
+		refinery = yes
+		max_level = 2 # This is the max unlock level
+		shares_slots = yes
+		value = 4
+		infrastructure_construction_effect = yes
+	}
+
+	synthetic_refinery = {
+		show_on_map = 1
+		base_cost = 13000
+		icon_frame = 11
+		local_resources_oil = 7 # May use local_resources_ + any resource name
+		#local_resources_rubber = 1
+		refinery = yes
+		max_level = 4 # This is the max unlock level
+		shares_slots = yes
+		value = 5
+		infrastructure_construction_effect = yes
+		show_modifier = yes
+		fuel_gain_from_states = 2.0 #per hour
+	}
+	
+	synthetic_rubber_refinery = {
+		show_on_map = 1
+		base_cost = 8750
+		icon_frame = 15
+		local_resources_rubber = 3 # May use local_resources_ + any resource name
+		refinery = yes
+		max_level = 3 # This is the max unlock level
+		shares_slots = yes
+		value = 4
+		infrastructure_construction_effect = yes
+	}
+
+	radar_station = {
+		show_on_map = 1
+		base_cost = 3375
+		icon_frame = 12
+		radar = yes
+		max_level = 6 # This is the max unlock level
+		damage_factor = 0.5
+		value = 4
+	}
+
+	rocket_site = {
+		show_on_map = 1
+		base_cost = 6400
+		icon_frame = 13
+		rocket_production = 5
+		rocket_launch_capacity = 1
+		max_level = 5
+		shares_slots = yes
+		value = 1
+		infrastructure_construction_effect = yes
+	}
+
+	nuclear_reactor = {
+		show_on_map = 1
+		base_cost = 30000
+		icon_frame = 14
+		nuclear_reactor = yes
+		nuclear_production_factor = 1
+		max_level = 1 # This is the max unlock level
+		shares_slots = yes
+		value = 10
+		infrastructure_construction_effect = yes
+	}
+	
+	fuel_silo = {
+		show_on_map = 1
+		base_cost = 5000
+		icon_frame = 29
+																		
+				
+		#max_level = 1
+											  
+		shares_slots = yes
+		value = 5
+		infrastructure_construction_effect = yes
+		fuel_silo = yes
+		
+		show_modifier = yes
+		max_fuel_building = 100.0 #k
+	}
+}

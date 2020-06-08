@@ -1,0 +1,8 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_special_techtree_bg"
+		textureFile = "gfx//interface//special_techtree_bg.dds"
+		allwaystransparent = yes		
+	}
+}

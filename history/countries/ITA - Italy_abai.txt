@@ -1,0 +1,26 @@
+﻿capital = 2
+
+oob = "ITA_1936"
+
+# Starting tech
+	set_technology = {
+		#industry
+		worker_complex = 1
+		war_complex = 1
+}
+		
+1939.1.1 = {
+	
+	oob = "ITA_1939"	
+
+
+	set_technology = {
+		#industry
+		synth_rubber_experiments = 1
+		heavy_industry1 = 1
+		heavy_industry2 = 1
+		propaganda_complex_fascism = 1
+	}
+	
+}
+

@@ -1,0 +1,115 @@
+spriteTypes = {	
+
+	### Industry ###
+	
+	SpriteType = {
+		name = "GFX_worker_complex_medium"
+		texturefile = "gfx/interface/technologies/worker_complex.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_war_complex_medium"
+		texturefile = "gfx/interface/technologies/war_complex.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_supply_complex_medium"
+		texturefile = "gfx/interface/technologies/supply_complex.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_supply_adv_complex_medium"
+		texturefile = "gfx/interface/technologies/supply_adv_complex.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_propaganda_complex_democratism_medium"
+		texturefile = "gfx/interface/technologies/propaganda_complex_democratism.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_propaganda_complex_fascism_medium"
+		texturefile = "gfx/interface/technologies/propaganda_complex_fascism.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_propaganda_complex_communism_medium"
+		texturefile = "gfx/interface/technologies/propaganda_complex_communism.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_chromium_industry1_medium"
+		texturefile = "gfx/interface/technologies/chromium_industry1.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_chromium_industry2_medium"
+		texturefile = "gfx/interface/technologies/chromium_industry2.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_chromium_industry3_medium"
+		texturefile = "gfx/interface/technologies/chromium_industry3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_tungsten_industry1_medium"
+		texturefile = "gfx/interface/technologies/tungsten_industry1.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tungsten_industry2_medium"
+		texturefile = "gfx/interface/technologies/tungsten_industry2.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_aluminium_industry1_medium"
+		texturefile = "gfx/interface/technologies/aluminium_industry1.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_aluminium_industry2_medium"
+		texturefile = "gfx/interface/technologies/aluminium_industry2.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_heavy_industry1_medium"
+		texturefile = "gfx/interface/technologies/heavy_industry1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_heavy_industry2_medium"
+		texturefile = "gfx/interface/technologies/heavy_industry2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_heavy_industry3_medium"
+		texturefile = "gfx/interface/technologies/heavy_industry3.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_heavy_industry4_medium"
+		texturefile = "gfx/interface/technologies/heavy_industry4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_heavy_industry5_medium"
+		texturefile = "gfx/interface/technologies/heavy_industry5.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_synth_rubber_experiments_medium"
+		texturefile = "gfx/interface/technologies/synth_rubber_experiments.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_rubber_plant_medium"
+		texturefile = "gfx/interface/technologies/rubber_plant.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_improved_rubber_plant_medium"
+		texturefile = "gfx/interface/technologies/improved_rubber_plant.dds"
+	}	
+	
+}
