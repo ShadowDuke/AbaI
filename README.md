@@ -46,3 +46,6 @@ THIS MOD DOESNT SUPPORT CHEATS, SO DONT BOTHER TO TELL SOMETHING ISSNT WORKING D
 
 Known bugs:
 If you build too many bootcamps, you cant train anymore. (The only solution is not to build more like 20 of them)
+
+Thanks to -=CDO=- D0omHammer there is now a french translation included.
+Thanks to Abbus for the new icons!
