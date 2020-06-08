@@ -1,8 +1,8 @@
-## Advanced Buildings & Industry
+# Advanced Buildings & Industry
  
  From Steam [here](https://steamcommunity.com/sharedfiles/filedetails/?id=710831586)
  
-# Introducing new buildings to build/research and new industry factories to research
+## Introducing new buildings to build/research and new industry factories to research
 
 
 New buildings:
