@@ -2,6 +2,12 @@
  
  From Steam [here](https://steamcommunity.com/sharedfiles/filedetails/?id=710831586)
  
+## Installation and use
+
+1. [Download](https://github.com/ShadowDuke/AbaI/archive/master.zip) the files and put the **"abai"** directory in C:\Users\##\Documents\Paradox Interactive\Hearts of Iron IV\mod 
+- Help: Windows Explorer; click on Documents; navigate to \Paradox Interactive\Hearts of Iron IV\
+2. Enable it in the launcher and dont mind outdated version infos
+ 
 ## Introducing new buildings to build/research and new industry factories to research
 
 
