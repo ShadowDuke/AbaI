@@ -18,10 +18,10 @@ New buildings:
 - Recruiting Institution Center
 - Boot Camp
 - Flight training School
-- Naval training Base + 1 naval dockyard
+- Naval training Base
 - War Factory (production building) +1 military factory
 - Worker Factory (production building) +1 civilian factory
-- Supply Factory (production building) +1 military factory, +1 civilian factory
+- Supply Factory (production building) +1 military factory
 - Oil Refineries only produce oil. +7 (prev. +5 oil, +2 rubber)
 - Added Rubber Refineries (tech building). +3 Rubber
 - Added Heavy Steel Industry (tech building). +7 Steel
