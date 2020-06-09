@@ -30,6 +30,7 @@ New buildings:
 - Added Aluminium Industry (tech building). +7 Aluminium
 
 **NOTES**
+
 Some bonuses need the researched building tech before it takes effect. For instance "Supply Factory" - Army organisation, Army recovery rate & Entrenchment speed bonus applies once researched.
 Normally this wouldnt be a problem. Its because a few are in the game before tech researched.
 
@@ -40,17 +41,20 @@ So you see, it has not that much of in impact.
 
 
 Some additional Notes for you:
+
 I tested all main nations for a few hours now for balance. The values may change and are not final, it needs further testing.
 You can see the bonuses in the tooltips for given changes.
 My goal was to make the new factories build 2 buildings at once but unfortunately you cant make the game build 2 same factories at once.
+
 Please give me your thoughts about the balance, build some new buildings & factories! :) And let me know if we need to balance the prod. costs for exampler or any other values.
 
 
-Multi Language Support (ger; eng -> braz-por, eng, fre, pol, rus, spa)
+**Multi Language Support (ger; eng -> braz-por, eng, fre, pol, rus, spa)**
 
-THIS MOD DOESNT SUPPORT CHEATS, SO DONT BOTHER TO TELL SOMETHING ISSNT WORKING DUE YOUR CHEATS!!!
+***THIS MOD DOESNT SUPPORT CHEATS, SO DONT BOTHER TO TELL SOMETHING ISSNT WORKING DUE YOUR CHEATS!!!***
 
-Known bugs:
+**Known bugs:**
+
 If you build too many bootcamps, you cant train anymore. (The only solution is not to build more like 20 of them)
 
 Thanks to -=CDO=- D0omHammer there is now a french translation included.
