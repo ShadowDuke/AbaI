@@ -18,7 +18,7 @@ New buildings:
 - Recruiting Institution Center
 - Boot Camp
 - Flight training School
-- Naval training Base & + 1 naval dockyard
+- Naval training Base + 1 naval dockyard
 - War Factory (production building) +1 military factory
 - Worker Factory (production building) +1 civilian factory
 - Supply Factory (production building) +1 military factory, +1 civilian factory
