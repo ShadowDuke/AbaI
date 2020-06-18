@@ -59,3 +59,5 @@ If you build too many bootcamps, you cant train anymore. (The only solution is n
 
 Thanks to -=CDO=- D0omHammer there is now a french translation included.
 Thanks to Abbus for the new icons!
+
+If you want, you can now support me with a donation at [Paypal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=5X8TNX5DN2G5C&source=url). Thank you!
