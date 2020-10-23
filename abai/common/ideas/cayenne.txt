@@ -3,6 +3,69 @@ ideas = {
 
 
 	political_advisor = {
+	
+		CAY_democratic_guy = {
+			
+			picture = generic_political_advisor_african_1
+			
+			allowed = {
+				original_tag = CAY
+			}
+			
+			traits = { democratic_reformer }
+
+			do_effect = {
+				NOT = {
+					has_government = democratic
+				}
+			}
+			
+			ai_will_do = {
+				factor = 0
+			}
+		}
+
+		CAY_communist_guy = {
+			
+			picture = generic_political_advisor_african_3
+			
+			allowed = {
+				original_tag = CAY
+			}
+			
+			traits = { communist_revolutionary }
+
+			do_effect = {
+				NOT = {
+					has_government = communism
+				}
+			}
+			
+			ai_will_do = {
+				factor = 0
+			}
+		}
+
+		CAY_fascist_guy = {
+			
+			picture = generic_political_advisor_african_2
+			
+			allowed = {
+				original_tag = CAY
+			}
+			
+			traits = { fascist_demagogue }
+
+			do_effect = {
+				NOT = {
+					has_government = fascism
+				}
+			}
+			
+			ai_will_do = {
+				factor = 0
+			}
+		}
 
 		CAY_pot = {
 
@@ -17,7 +80,7 @@ ideas = {
 
 		CAY_coi = {
 		
-		cost = 125
+			cost = 125
 
 			picture = generic_political_advisor_african_1
 				
@@ -143,6 +206,7 @@ ideas = {
 	high_command = {
 
 		CAY_ar = {
+			ledger = army
 			
 			picture = generic_army_african_5
 			
@@ -158,6 +222,7 @@ ideas = {
 		}
 		
 		CAY_ai2 = {
+			ledger = army
 
 			picture = generic_army_african_3
 			
@@ -173,6 +238,7 @@ ideas = {
 		}
 
 		CAY_aa2 = {
+			ledger = army
 
 			picture = generic_army_african_2
 			
@@ -188,6 +254,7 @@ ideas = {
 		}
 
 		CAY_acas = {
+			ledger = air
 
 			picture = generic_air_african_2
 			
@@ -203,6 +270,7 @@ ideas = {
 		}
 
 		CAY_ncs = {
+			ledger = navy
 
 			picture = generic_navy_african_2
 			
@@ -220,6 +288,7 @@ ideas = {
 
 	theorist = {
 		CAY_mt = {
+			ledger = army
 			
 			picture = generic_army_african_6
 
@@ -235,6 +304,7 @@ ideas = {
 		}
 		
 		CAY_nt = {
+			ledger = navy
 
 			picture = generic_navy_african_3
 			
@@ -250,6 +320,7 @@ ideas = {
 		}	
 
 		CAY_awt = {
+			ledger = air
 
 			picture = generic_air_african_2
 			

@@ -17,7 +17,7 @@ ideas = {
 
 		YEM_cecil_barrington_hurst = {
 		
-		cost = 125
+			cost = 125
 
 			picture = generic_political_advisor_europe_1
 				
@@ -144,6 +144,7 @@ ideas = {
 	high_command = {
 
 		YEM_abd_al_husseini = {
+			ledger = army
 			
 			picture = generic_army_arab_1
 			
@@ -159,6 +160,7 @@ ideas = {
 		}
 		
 		YEM_ali_halukeh = {
+			ledger = air
 
 			picture = generic_air_arab_3
 			
@@ -174,6 +176,7 @@ ideas = {
 		}
 
 		YEM_hisham_ibn_uthman = {
+			ledger = army
 			
 			picture = generic_army_arab_2
 			
@@ -189,6 +192,7 @@ ideas = {
 		}
 		
 		YEM_ja_far_al_hijazi = {
+			ledger = army
 
 			picture = generic_navy_arab_3
 			
@@ -207,6 +211,7 @@ ideas = {
 
 	theorist = {
 		YEM_sa_ud_ibn_umar = {
+			ledger = army
 			
 			picture = generic_army_arab_2
 
@@ -222,6 +227,7 @@ ideas = {
 		}
 		
 		YEM_yusuf_ibn_khalid = {
+			ledger = navy
 
 			picture = generic_navy_arab_3
 			
@@ -237,6 +243,7 @@ ideas = {
 		}	
 
 		YEM_khalid_ibn_yusuf = {
+			ledger = air
 
 			picture = generic_air_arab_2
 			

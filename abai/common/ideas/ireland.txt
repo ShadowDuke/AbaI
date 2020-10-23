@@ -4,7 +4,7 @@ ideas = {
 
 		IRE_sean_lemass = {
 		
-		cost = 125
+			cost = 125
 
 			picture = generic_political_advisor_europe_5
 
@@ -139,6 +139,7 @@ ideas = {
 	high_command = {
 
 		IRE_dan_mckenna = {
+			ledger = army
 			picture = generic_army_europe_1
 			
 			allowed = {
@@ -153,6 +154,7 @@ ideas = {
 		}
 
 		IRE_frank_fahy = {
+			ledger = army
 
 			picture = generic_army_europe_6
 			
@@ -168,6 +170,7 @@ ideas = {
 		}
 
 		IRE_michael_brennan = {
+			ledger = air
 
 			picture = generic_air_europe_3
 			
@@ -183,6 +186,7 @@ ideas = {
 		}
 
 		IRE_a_t_lawlor = {
+			ledger = navy
 
 			picture = generic_navy_europe_2
 			
@@ -200,6 +204,7 @@ ideas = {
 
 	theorist = {
 		IRE_michael_joe_costello = {
+			ledger = army
 			
 			picture = generic_army_europe_2
 
@@ -215,6 +220,7 @@ ideas = {
 		}
 		
 		IRE_oscar_traynor = {
+			ledger = air
 			
 			picture = generic_political_advisor_europe_2
 			

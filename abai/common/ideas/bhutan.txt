@@ -15,7 +15,7 @@ ideas = {
 
 		BHU_jigme_palden_dorji = {
 		
-		cost = 125
+			cost = 125
 
 			picture = generic_political_advisor_asia_2
 				
@@ -146,6 +146,7 @@ ideas = {
 	high_command = {
 
 		BHU_sonam_pradukha = {
+			ledger = army
 
 			picture = generic_army_asia_4
 			
@@ -161,6 +162,7 @@ ideas = {
 		}
 		
 		BHU_dechen_sonam = {
+			ledger = army
 
 			picture = generic_army_asia_5
 			
@@ -176,6 +178,7 @@ ideas = {
 		}
 
 		BHU_bill_collett = {
+			ledger = air
 
 			picture = generic_air_asia_3
 			
@@ -191,6 +194,7 @@ ideas = {
 		}
 
 		BHU_gendun_shakabpa = {
+			ledger = navy
 
 			picture = generic_navy_asia_1
 			
@@ -210,6 +214,7 @@ ideas = {
 
 	theorist = {
 		BHU_tsepon_shatra = {
+			ledger = army
 
 			picture = generic_army_asia_2
 			
@@ -225,6 +230,7 @@ ideas = {
 		}
 		
 		BHU_chamba_wangyal = { 
+			ledger = air
 
 			picture = generic_air_asia_2
 			
@@ -240,6 +246,7 @@ ideas = {
 		}
 
 		BHU_tsarong_rinpoche = {
+			ledger = navy
 
 			picture = generic_navy_asia_2
 			

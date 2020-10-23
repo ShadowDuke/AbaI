@@ -1,6 +1,69 @@
 ideas = {
 
 	political_advisor = {
+	
+		BLR_democratic_guy = {
+			
+			picture = generic_political_advisor_europe_1
+			
+			allowed = {
+				original_tag = BLR
+			}
+			
+			traits = { democratic_reformer }
+
+			do_effect = {
+				NOT = {
+					has_government = democratic
+				}
+			}
+			
+			ai_will_do = {
+				factor = 0
+			}
+		}
+
+		BLR_communist_guy = {
+			
+			picture = generic_political_advisor_europe_3
+			
+			allowed = {
+				original_tag = BLR
+			}
+			
+			traits = { communist_revolutionary }
+
+			do_effect = {
+				NOT = {
+					has_government = communism
+				}
+			}
+			
+			ai_will_do = {
+				factor = 0
+			}
+		}
+
+		BLR_fascist_guy = {
+			
+			picture = generic_political_advisor_europe_2
+			
+			allowed = {
+				original_tag = BLR
+			}
+			
+			traits = { fascist_demagogue }
+
+			do_effect = {
+				NOT = {
+					has_government = fascism
+				}
+			}
+			
+			ai_will_do = {
+				factor = 0
+			}
+		}
 
 		BLR_boris_berman = {
 
@@ -15,7 +78,7 @@ ideas = {
 
 		BLR_jozeph_ryzhykov = {
 		
-		cost = 125
+			cost = 125
 
 			picture = generic_political_advisor_europe_2
 				
@@ -130,6 +193,7 @@ ideas = {
 	high_command = {
 
 		BLR_piotr_kozlov = {
+			ledger = army
 			
 			picture = generic_army_europe_5
 			
@@ -145,6 +209,7 @@ ideas = {
 		}
 		
 		BLR_alexander_akulich = {
+			ledger = army
 
 			picture = generic_army_europe_2
 			
@@ -160,6 +225,7 @@ ideas = {
 		}
 
 		BLR_maksim_antonyuk = {
+			ledger = army
 
 			picture = generic_army_europe_3
 			
@@ -177,6 +243,7 @@ ideas = {
 
 	theorist = {
 		BLR_aleksei_antonov = {
+			ledger = army
 			
 			picture = generic_army_europe_2
 
@@ -192,6 +259,7 @@ ideas = {
 		}	
 
 		BLR_stepan_krasovsky = {
+			ledger = air
 
 			picture = generic_air_europe_1
 			

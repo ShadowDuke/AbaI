@@ -17,7 +17,7 @@ ideas = {
 
 		LIB_albert_porte = {
 		
-		cost = 125
+			cost = 125
 
 			picture = generic_political_advisor_african_1
 				
@@ -143,6 +143,7 @@ ideas = {
 	high_command = {
 
 		LIB_john__r_fox = {
+			ledger = army
 			
 			picture = generic_army_african_1
 			
@@ -158,6 +159,7 @@ ideas = {
 		}
 		
 		LIB_edgar_cailloux = {
+			ledger = army
 
 			picture = generic_army_african_3
 			
@@ -173,6 +175,7 @@ ideas = {
 		}
 
 		LIB_benton_stukes = {
+			ledger = army
 
 			picture = generic_army_african_2
 			
@@ -188,6 +191,7 @@ ideas = {
 		}
 
 		LIB_samuel_nell = {
+			ledger = air
 
 			picture = generic_air_african_2
 			
@@ -203,6 +207,7 @@ ideas = {
 		}
 
 		LIB_andre_fields = {
+			ledger = navy
 
 			picture = generic_navy_african_2
 			
@@ -220,6 +225,7 @@ ideas = {
 
 	theorist = {
 		LIB_aaron_pinn = {
+			ledger = army
 			
 			picture = generic_army_african_2
 
@@ -235,6 +241,7 @@ ideas = {
 		}
 		
 		LIB_stewart_holland = {
+			ledger = navy
 
 			picture = generic_navy_african_3
 			
@@ -250,6 +257,7 @@ ideas = {
 		}	
 
 		LIB_joseph_smith = {
+			ledger = air
 
 			picture = generic_air_african_2
 			

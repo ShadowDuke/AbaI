@@ -33,9 +33,9 @@ state={
 		}
 		1939.1.1 = {
 			buildings = {
-				arms_factory = 1
+				arms_factory = 2
 				war_complex = 1
-				industrial_complex = 5
+				industrial_complex = 4
 				worker_complex = 1
 				supply_complex = 1
 			}

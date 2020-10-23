@@ -1,5 +1,4 @@
 name="Advanced Buildings & Industry"
-supported_version="1.8.*"
 tags={
 	"Balance"
 	"Technologies"
@@ -8,4 +7,5 @@ tags={
 	"Graphics"
 	"Ideologies"
 }
+supported_version="1.10.*"
 remote_file_id="710831586"

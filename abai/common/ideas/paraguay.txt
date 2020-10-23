@@ -18,7 +18,7 @@ ideas = {
 
 		PAR_remigio_bastia_martin = {
 		
-		cost = 125
+			cost = 125
 
 			picture = generic_political_advisor_south_america_2
 				
@@ -44,6 +44,7 @@ ideas = {
 	theorist = {
 
 		PAR_juan_natalicio_gonzalez = {
+			ledger = army
 					
 			picture = generic_political_advisor_south_america_3
 
@@ -59,6 +60,7 @@ ideas = {
 		}
 
 		PAR_higenio_morinigo_martinez = {
+			ledger = navy
 					
 					
 			allowed = {
@@ -78,6 +80,7 @@ ideas = {
 	high_command = {
 
 		PAR_isaias_baez_allende = {
+			ledger = army
 
 			picture = generic_army_south_america_4
 			
@@ -93,6 +96,7 @@ ideas = {
 		}
 
 		PAR_amancio_pampliega = {
+			ledger = army
 
 			picture = generic_army_south_america_5
 			
@@ -108,6 +112,7 @@ ideas = {
 		}
 
 		PAR_alfred_stroessner_matiauda = {
+			ledger = army
 
 			picture = generic_army_south_america_3
 			
@@ -123,6 +128,7 @@ ideas = {
 		}
 
 		PAR_vicente_almonacid = {
+			ledger = air
 
 			picture = generic_air_south_america_1
 			

@@ -7,11 +7,11 @@ state={
 	
 	state_category = town
 
-	history={
-		owner = GER
+	history={	
 		victory_points = {
 			9388 1
 		}
+		owner = GER	 
 		buildings = {
 			infrastructure = 6
 			fuel_silo = 1

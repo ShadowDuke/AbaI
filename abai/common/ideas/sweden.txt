@@ -49,7 +49,7 @@ ideas = {
 
 		SWE_ernst_wigforss = {
 		
-		cost = 125
+			cost = 125
 
 			picture = generic_political_advisor_europe_3
 			
@@ -64,6 +64,7 @@ ideas = {
 	theorist = {
 
 		SWE_helge_jung = {
+			ledger = army
 					
 					
 			allowed = {
@@ -80,6 +81,7 @@ ideas = {
 		}
 
 		SWE_erik_palmstierna = {
+			ledger = navy
 					
 					
 			allowed = {
@@ -264,6 +266,7 @@ ideas = {
 	high_command = {
 
 		SWE_axel_rappe = {
+			ledger = army
 			
 			picture = generic_army_europe_1
 			
@@ -281,6 +284,7 @@ ideas = {
 		}
 	
 		SWE_archibald_douglas = {
+			ledger = army
 			
 			picture = generic_army_europe_2
 
@@ -298,6 +302,7 @@ ideas = {
 		}
 
 		SWE_axel_ljungdahl = {
+			ledger = air
 			
 			picture = generic_air_europe_2
 			
@@ -315,6 +320,7 @@ ideas = {
 		}
 
 		SWE_helge_stromback = {
+			ledger = navy
 			
 			picture = generic_navy_europe_2
 			

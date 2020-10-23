@@ -6,7 +6,7 @@ ideas = {
 
 		PER_ali_zohayli = {
 		
-		cost = 125
+			cost = 125
 
 			picture = generic_political_advisor_arab_3
 
@@ -143,6 +143,7 @@ ideas = {
 	high_command = {
 
 		PER_mir_afkhami = {
+			ledger = army
 			
 			picture = generic_army_arab_1
 			
@@ -158,6 +159,7 @@ ideas = {
 		}
 		
 		PER_fazlollah_zahedi = {
+			ledger = army
 
 			picture = generic_army_arab_2
 			
@@ -174,6 +176,7 @@ ideas = {
 
 
 		PER_ali_razmara = {
+			ledger = air
 
 			picture = generic_air_arab_3
 			
@@ -189,6 +192,7 @@ ideas = {
 		}
 
 		PER_ahmad_mira_khosravani = {
+			ledger = navy
 
 			picture = generic_navy_arab_1
 			
@@ -206,6 +210,7 @@ ideas = {
 
 	theorist = {
 		PER_mohammed_reza_pahlavi = {
+			ledger = army
 			
 			picture = generic_army_arab_3
 
@@ -221,6 +226,7 @@ ideas = {
 		}
 		
 		PER_hossein_afkhami = {
+			ledger = navy
 
 			picture = generic_navy_arab_1
 			
@@ -236,6 +242,7 @@ ideas = {
 		}	
 
 		PER_ali_akbar_deiva = {
+			ledger = air
 
 			picture = generic_air_arab_2
 			
