@@ -1,0 +1,7 @@
+﻿capital = 617
+
+oob = "SIK_1936"
+
+set_technology = {
+	propaganda_complex_communism = 1
+}

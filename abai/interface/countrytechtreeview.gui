@@ -2410,7 +2410,7 @@ guiTypes = {
 		}
 
 		containerWindowType = {
-			name = "special_folder"
+			name = "abai_folder"
 			position = { x=0 y=47 }
 			size = { width = 100%% height = 100%% }
 			margin = { top = 13 left = 13 bottom = 24 right = 25}
@@ -2433,19 +2433,19 @@ guiTypes = {
 				}
 				
 				iconType = {
-					name ="GFX_special_techtree_bg"
-					spriteType = "GFX_special_techtree_bg"
+					name ="GFX_abai_techtree_bg"
+					spriteType = "GFX_abai_techtree_bg"
 					position = { x=0 y=0 }
 				}	
 
 			containerWindowType = {
-				name = "special_year_left"
+				name = "abai_year_left"
 				position = { x=100 y=40 }
 				size = { width = 130 height = 100% }
 				orientation = upper_left
 			
 				instantTextBoxType = {
-					name = "special_year2"
+					name = "abai_year2"
 					position = { x = 0 y = 140 }
 					textureFile = ""
 					font = "hoi_36header"
@@ -2458,7 +2458,7 @@ guiTypes = {
 				}
 
 				instantTextBoxType = {
-					name = "special_year3"
+					name = "abai_year3"
 					position = { x = 0 y = 420 }
 					textureFile = ""
 					font = "hoi_36header"
@@ -2471,7 +2471,7 @@ guiTypes = {
 				}
 
 				instantTextBoxType = {
-					name = "special_year4"
+					name = "abai_year4"
 					position = { x = 0 y = 560 }
 					textureFile = ""
 					font = "hoi_36header"
@@ -2484,7 +2484,7 @@ guiTypes = {
 				}
 
 				instantTextBoxType = {
-					name = "special_year5"
+					name = "abai_year5"
 					position = { x = 0 y = 700 }
 					textureFile = ""
 					font = "hoi_36header"
@@ -2497,7 +2497,7 @@ guiTypes = {
 				}
 
 				instantTextBoxType = {
-					name = "special_year6"
+					name = "abai_year6"
 					position = { x = 0 y = 840 }
 					textureFile = ""
 					font = "hoi_36header"
@@ -2513,15 +2513,14 @@ guiTypes = {
 			}			
 
 			containerWindowType = {
-				name = "special_year_right"
-				position = { x=-100 y=40
-				}
+				name = "abai_year_right"
+				position = { x=-100 y=40 }
 				size = { width = 80 height = 100% }
 				orientation = upper_right
 			
 				instantTextBoxType = {
-					name = "special_year2"
-					position = { x = 0 y = 140 }
+					name = "abai_year2"
+					position = { x = 330 y = 140 }
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
@@ -2533,8 +2532,8 @@ guiTypes = {
 				}
 
 				instantTextBoxType = {
-					name = "special_year3"
-					position = { x = 0 y = 420 }
+					name = "abai_year3"
+					position = { x = 330 y = 420 }
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
@@ -2546,8 +2545,8 @@ guiTypes = {
 				}
 
 				instantTextBoxType = {
-					name = "special_year4"
-					position = { x = 0 y = 560 }
+					name = "abai_year4"
+					position = { x = 330 y = 560 }
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
@@ -2559,8 +2558,8 @@ guiTypes = {
 				}
 
 				instantTextBoxType = {
-					name = "special_year5"
-					position = { x = 0 y = 700 }
+					name = "abai_year5"
+					position = { x = 330 y = 700 }
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
@@ -2572,8 +2571,8 @@ guiTypes = {
 				}
 
 				instantTextBoxType = {
-					name = "special_year6"
-					position = { x = 0 y = 840 }
+					name = "abai_year6"
+					position = { x = 330 y = 840 }
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
@@ -2592,7 +2591,7 @@ guiTypes = {
 			
 				instantTextBoxType = {
 					name = "industry_subtitle"
-					position = { x = 330 y = 150 }
+					position = { x = 330 y = 95 }
 					textureFile = ""
 					font = "hoi_22tech"
 					borderSize = {x = 0 y = 2}
@@ -2709,7 +2708,7 @@ guiTypes = {
 				
 				instantTextBoxType = {
 					name = "industry_subtitle_factory"
-					position = { x = 1283 y = 125 }
+					position = { x = 1282 y = 125 }
 					textureFile = ""
 					font = "hoi_22tech"
 					borderSize = {x = 0 y = 4}
@@ -2721,24 +2720,32 @@ guiTypes = {
 				}
 				
 			gridboxtype = {
+				name = "propaganda_complex_neutrality_tree"
+				position = { x = 90 y = -180 }
+				size = { width = 520 height = 800 }
+				slotsize = { width = 70 height = 70 }
+				format = "UP"
+			}
+				
+			gridboxtype = {
 				name = "propaganda_complex_democratism_tree"
-				position = { x = 50 y = 145 }
+				position = { x = 50 y = 160 }
 				size = { width = 520 height = 800 }
 				slotsize = { width = 70 height = 70 }
 				format = "UP"
 			}
 			
-						gridboxtype = {
+			gridboxtype = {
 				name = "propaganda_complex_fascism_tree"
-				position = { x = 90 y = 145 }
+				position = { x = 90 y = 160 }
 				size = { width = 520 height = 800 }
 				slotsize = { width = 70 height = 70 }
 				format = "UP"
 			}
 			
-						gridboxtype = {
+			gridboxtype = {
 				name = "propaganda_complex_communism_tree"
-				position = { x = 130 y = 145 }
+				position = { x = 130 y = 160 }
 				size = { width = 520 height = 800 }
 				slotsize = { width = 70 height = 70 }
 				format = "UP"
@@ -4081,15 +4088,15 @@ guiTypes = {
 
 			buttonType = {
 				position = { x = 1152 y = 0 }
-				name = "special_folder_tab"
-				quadTextureSprite = "GFX_special_folder_tab"
+				name = "abai_folder_tab"
+				quadTextureSprite = "GFX_abai_folder_tab"
 				frame = 1
 				clicksound = click_default
 				
 			}
 			
 			iconType = {
-				name = "highlight_special_folder"
+				name = "highlight_abai_folder"
 				spriteType = "GFX_tutorial_research_folder_icon_glow"
 				position = { x=1152 y=0}
 				hide = yes
@@ -5088,7 +5095,7 @@ guiTypes = {
 	}
 	
 	containerWindowType = {
-		name = "techtree_special_folder_item"
+		name = "techtree_abai_folder_item"
 		position = { x=0 y=5 }
 		size = { width = 204 height = 72 }
 		clipping = no

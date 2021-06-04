@@ -1,0 +1,7 @@
+﻿capital = 306
+
+oob = "COL_1936"
+
+set_technology = {
+	propaganda_complex_democratism = 1
+}

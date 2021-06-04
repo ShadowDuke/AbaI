@@ -1,0 +1,1216 @@
+technologies = {
+	
+	chromium_industry1 = {
+
+
+		enable_building = {
+			building = chromium_industry
+			level = 1
+		}
+		
+		path = {
+			leads_to_tech = chromium_industry2 
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2.0
+		start_year = 1939
+		
+		folder = {
+			name = abai_folder
+			position = { x = 0 y = 4 }
+		}
+			
+		categories = {
+			industry
+			synth_resources
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0.5
+				chromium > 10
+			}
+			modifier = {
+				factor = 0.5
+				chromium > 20
+			}	
+			modifier = {
+				factor = 1
+				chromium > 30
+			}			
+		}
+		
+		ai_research_weights = {
+			chromium = -2.0
+		}		
+	}
+	
+	chromium_industry2 = {
+
+
+		enable_building = {
+			building = chromium_industry
+			level = 2
+		}
+		
+		path = {
+			leads_to_tech = chromium_industry3 
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		start_year = 1941
+		
+		folder = {
+			name = abai_folder
+			position = { x = 0 y = 6 }
+		}
+			
+		categories = {
+			industry
+			synth_resources
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0.5
+				chromium > 10
+			}
+			modifier = {
+				factor = 0.5
+				chromium > 20
+			}	
+			modifier = {
+				factor = 1
+				chromium > 30
+			}			
+		}
+		
+		ai_research_weights = {
+			chromium = -2.0
+		}		
+	}
+	
+	chromium_industry3 = {
+
+
+		enable_building = {
+			building = chromium_industry
+			level = 3
+		}
+		
+		path = {
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		start_year = 1943
+		
+		folder = {
+			name = abai_folder
+			position = { x = 0 y = 8 }
+		}
+			
+		categories = {
+			industry
+			synth_resources
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0.5
+				chromium > 10
+			}
+			modifier = {
+				factor = 0.5
+				chromium > 20
+			}	
+			modifier = {
+				factor = 1
+				chromium > 30
+			}			
+		}
+		
+		ai_research_weights = {
+			chromium = -2.0
+		}		
+	}
+	
+	tungsten_industry1 = {
+
+
+		enable_building = {
+			building = tungsten_industry
+			level = 1
+		}
+		
+		path = {
+			leads_to_tech = tungsten_industry2 
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2.0
+		start_year = 1940
+		
+		folder = {
+			name = abai_folder
+			position = { x = 0 y = 7 }
+		}
+			
+		categories = {
+			industry
+			synth_resources
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0.5
+				tungsten > 10
+			}
+			modifier = {
+				factor = 0.5
+				tungsten > 20
+			}	
+			modifier = {
+				factor = 1
+				tungsten > 30
+			}			
+		}
+		
+		ai_research_weights = {
+			tungsten = -2.0
+		}		
+	}
+	
+	tungsten_industry2 = {
+
+
+		enable_building = {
+			building = tungsten_industry
+			level = 2
+		}
+		
+		path = {
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		start_year = 1942
+		
+		folder = {
+			name = abai_folder
+			position = { x = 0 y = 9 }
+		}
+			
+		categories = {
+			industry
+			synth_resources
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0.5
+				tungsten > 10
+			}
+			modifier = {
+				factor = 0.5
+				tungsten > 20
+			}	
+			modifier = {
+				factor = 1
+				tungsten > 30
+			}			
+		}
+		
+		ai_research_weights = {
+			tungsten = -2.0
+		}		
+	}
+	
+	aluminium_industry1 = {
+
+
+		enable_building = {
+			building = aluminium_industry
+			level = 1
+		}
+		
+		path = {
+			leads_to_tech = aluminium_industry2 
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2.0
+		start_year = 1940
+		
+		folder = {
+			name = abai_folder
+			position = { x = 0 y = 7 }
+		}
+			
+		categories = {
+			industry
+			synth_resources
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0.5
+				aluminium > 10
+			}
+			modifier = {
+				factor = 0.5
+				aluminium > 20
+			}	
+			modifier = {
+				factor = 1
+				aluminium > 30
+			}			
+		}
+		
+		ai_research_weights = {
+			aluminium = -2.0
+		}		
+	}
+	
+	aluminium_industry2 = {
+
+
+		enable_building = {
+			building = aluminium_industry
+			level = 2
+		}
+		
+		path = {
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		start_year = 1942
+		
+		folder = {
+			name = abai_folder
+			position = { x = 0 y = 9 }
+		}
+			
+		categories = {
+			industry
+			synth_resources
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0.5
+				aluminium > 10
+			}
+			modifier = {
+				factor = 0.5
+				aluminium > 20
+			}	
+			modifier = {
+				factor = 1
+				aluminium > 30
+			}			
+		}
+		
+		ai_research_weights = {
+			aluminium = -2.0
+		}		
+	}
+
+	heavy_industry1 = {
+
+
+		enable_building = {
+			building = steel_mill
+			level = 1
+		}
+		
+		path = {
+			leads_to_tech = heavy_industry2 
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.0
+		start_year = 1936
+		
+		folder = {
+			name = abai_folder
+			position = { x = 0 y = -2 }
+		}
+			
+		categories = {
+			industry
+		}
+		
+		ai_will_do = {
+			factor = 2
+			modifier = {
+				factor = 0.5
+				steel > 10
+			}
+			modifier = {
+				factor = 0.5
+				steel > 20
+			}	
+			modifier = {
+				factor = 1
+				steel > 30
+			}			
+		}
+		
+		ai_research_weights = {
+			steel = -2.0
+		}		
+	}
+	
+	heavy_industry2 = {
+
+		
+		enable_building = {
+			building = steel_mill
+			level = 2
+		}
+
+		path = {
+			leads_to_tech = heavy_industry3
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		start_year = 1937
+		
+		folder = {
+			name = abai_folder
+			position = { x = 0 y = 2 }
+		}
+		
+		categories = {
+			industry
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0.5
+				steel > 10
+			}
+			modifier = {
+				factor = 2
+				steel > 20
+			}	
+			modifier = {
+				factor = 1
+				steel > 30
+			}			
+		}
+		
+		ai_research_weights = {
+			steel = -2.0
+		}		
+	}
+	
+	heavy_industry3 = {
+
+		global_building_slots_factor = 0.1
+		production_factory_max_efficiency_factor = 0.025
+		
+		enable_building = {
+			building = steel_mill
+			level = 3
+		}
+
+		path = {
+			leads_to_tech = heavy_industry4 
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		start_year = 1939
+		
+		folder = {
+			name = abai_folder
+			position = { x = 0 y = 4 }
+		}
+		
+		categories = {
+			industry
+		}
+		
+		ai_will_do = {
+			factor = 2
+			modifier = {
+				factor = 0.5
+				steel > 10
+			}
+			modifier = {
+				factor = 0.5
+				steel > 20
+			}	
+			modifier = {
+				factor = 1
+				steel > 30
+			}			
+		}
+		
+		ai_research_weights = {
+			steel = -2.0
+		}		
+	}
+	
+	heavy_industry4 = {
+
+		global_building_slots_factor = 0.1
+		production_factory_max_efficiency_factor = 0.025
+		
+		enable_building = {
+			building = steel_mill
+			level = 4
+		}
+
+		path = {
+			leads_to_tech = heavy_industry5 
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		start_year = 1941
+		
+		folder = {
+			name = abai_folder
+			position = { x = 0 y = 6 }
+		}
+		
+		categories = {
+			industry
+		}
+		
+		
+		ai_will_do = {
+			factor = 2
+			modifier = {
+				factor = 0.5
+				steel > 10
+			}
+			modifier = {
+				factor = 0.5
+				steel > 20
+			}	
+			modifier = {
+				factor = 1
+				steel > 30
+			}			
+		}
+		
+		ai_research_weights = {
+			steel = -2.0
+		}		
+	}
+	
+	heavy_industry5 = {
+
+		global_building_slots_factor = 0.1
+		production_factory_max_efficiency_factor = 0.025
+		
+		enable_building = {
+			building = steel_mill
+			level = 5
+		}
+		
+		research_cost = 1.5
+		start_year = 1943
+		
+		folder = {
+			name = abai_folder
+			position = { x = 0 y = 8 }
+		}
+
+		categories = {
+			industry
+		}
+		
+		
+		ai_will_do = {
+			factor = 3
+			modifier = {
+				factor = 0.5
+				steel > 10
+			}
+			modifier = {
+				factor = 0.5
+				steel > 20
+			}	
+			modifier = {
+				factor = 1
+				steel > 30
+			}			
+		}
+		
+		ai_research_weights = {
+			steel = -2.0
+		}		
+	}
+	
+	synth_rubber_experiments = {
+
+		enable_building = {
+			building = synthetic_rubber_refinery
+			level = 1
+		}		
+		path = {
+			leads_to_tech = rubber_plant 
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2.0
+		start_year = 1938
+		folder = {
+			name = abai_folder
+			position = { x = 0 y = 5 }
+		}
+		
+		categories = {
+			industry
+			synth_resources
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0.5
+				rubber > 10
+			}
+			modifier = {
+				factor = 0.5
+				rubber > 20
+			}	
+			modifier = {
+				factor = 1
+				rubber > 30
+			}			
+		}
+		
+		ai_research_weights = {
+			rubber = -2.0
+		}		
+	}
+	
+	rubber_plant = {
+
+		enable_building = {
+			building = synthetic_rubber_refinery
+			level = 2
+		}
+		
+		path = {
+			leads_to_tech = improved_rubber_plant 
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		start_year = 1940
+		
+		folder = {
+			name = abai_folder
+			position = { x = 0 y = 7 }
+		}
+		
+		categories = {
+			industry
+			synth_resources
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0.5
+				rubber > 10
+			}
+			modifier = {
+				factor = 0.5
+				rubber > 20
+			}	
+			modifier = {
+				factor = 1
+				rubber > 30
+			}			
+		}
+		
+		ai_research_weights = {
+			rubber = -2.0
+		}		
+	}
+	
+	improved_rubber_plant = {
+
+		enable_building = {
+			building = synthetic_rubber_refinery
+			level = 3
+		}
+		
+		path = {
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		start_year = 1943
+		
+		folder = {
+			name = abai_folder
+			position = { x = 0 y = 10 }
+		}
+		
+		categories = {
+			industry
+			synth_resources
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0.5
+				rubber > 10
+			}
+			modifier = {
+				factor = 0.5
+				rubber > 20
+			}	
+			modifier = {
+				factor = 1
+				rubber > 30
+			}			
+		}
+		
+		ai_research_weights = {
+			rubber = -2.0
+		}		
+	}
+	
+	war_complex = {
+
+				
+		enable_building = {
+			building = war_complex
+			level = 5
+		}
+		
+		path = {
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 0.5
+		start_year = 1936
+		
+		folder = {
+			name = abai_folder
+			position = { x = 0 y = 3 }
+		}
+			
+		categories = {
+			industry
+			construction_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 1
+				tag = GER
+				tag = SOV
+				tag = ITA
+			}
+			
+			modifier = {
+				factor = 2
+				has_war = yes
+			}
+		}		
+	}
+	
+	worker_complex = {
+	
+		enable_building = {
+			building = worker_complex
+			level = 5
+		}
+		
+		path = {
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 0.5
+		start_year = 1936
+		
+		folder = {
+			name = abai_folder
+			position = { x = 0 y = 3 }
+		}
+			
+		categories = {
+			industry
+			construction_tech
+		}
+		
+		ai_will_do = {
+			factor = 5
+
+			modifier = {
+				factor = 2
+				tag = GER
+			}
+			
+			modifier = {
+				factor = 1
+				tag = SOV
+			}
+		}
+	}
+	
+	supply_complex = {
+
+
+		enable_building = {
+			building = supply_complex
+			level = 1
+		}
+		
+		path = {
+			leads_to_tech = supply_adv_complex
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 0.5
+		start_year = 1936
+		
+		folder = {
+			name = abai_folder
+			position = { x = 0 y = 3 }
+		}
+			
+		categories = {
+			industry
+			construction_tech
+		}
+		
+		ai_will_do = {
+				factor = 1
+		
+		modifier = {
+				factor = 1
+				tag = USA
+			}
+		}
+	}
+	
+	supply_adv_complex = {
+
+		production_factory_efficiency_gain_factor = 0.025
+	
+		enable_building = {
+			building = supply_complex
+			level = 2
+		}
+		
+		path = {
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		start_year = 1938
+		
+		folder = {
+			name = abai_folder
+			position = { x = 0 y = 7 }
+		}
+			
+		categories = {
+			industry
+			construction_tech
+		}
+		
+		ai_will_do = {
+				factor = 1
+		
+		modifier = {
+				factor = 1
+				tag = USA
+			}
+		}
+	}
+	
+	
+	propaganda_complex_democratism = {
+	
+		enable_building = {
+			building = propaganda_complex_democratism
+			level = 1
+		}
+		
+		path = {
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 0.5
+		start_year = 1938
+		
+		folder = {
+			name = abai_folder
+			position = { x = 0 y = 5 }
+		}
+			
+		categories = {
+			electronics
+			computing_tech
+			radar_tech
+		}
+		
+		ai_will_do = {
+			factor = 5
+
+			modifier = {
+				factor = 2
+				tag = USA
+			}
+			
+			modifier = {
+				factor = 2
+				tag = ENG
+			}
+			
+			modifier = {
+				factor = 2
+				tag = CAN
+			}
+			
+			modifier = {
+				factor = 2
+				tag = FRA
+			}
+			
+			modifier = {
+				factor = 2
+				tag = POL
+			}
+		}
+	}
+	
+	propaganda_complex_fascism = {
+	
+		enable_building = {
+			building = propaganda_complex_fascism
+			level = 1
+		}
+		
+		path = {
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 0.5
+		start_year = 1938
+		
+		folder = {
+			name = abai_folder
+			position = { x = 1 y = 5 }
+		}
+			
+		categories = {
+			electronics
+			computing_tech
+			radar_tech
+		}
+		
+		ai_will_do = {
+			factor = 5
+
+			modifier = {
+				factor = 2
+				tag = GER
+			}
+			
+			modifier = {
+				factor = 2
+				tag = JAP
+			}
+		}
+	}
+	
+	propaganda_complex_communism = {
+	
+		enable_building = {
+			building = propaganda_complex_communism
+			level = 1
+		}
+		
+		path = {
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 0.5
+		start_year = 1938
+		
+		folder = {
+			name = abai_folder
+			position = { x = 2 y = 5 }
+		}
+			
+		categories = {
+			electronics
+			computing_tech
+			radar_tech
+		}
+		
+		ai_will_do = {
+			factor = 5
+
+			modifier = {
+				factor = 2
+				tag = SOV
+			}
+		}
+	}
+	
+	propaganda_complex_neutrality = {
+	
+		enable_building = {
+			building = propaganda_complex_neutrality
+			level = 1
+		}
+		
+		path = {
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1
+		start_year = 1936
+		
+		folder = {
+			name = abai_folder
+			position = { x = 1 y = 5 }
+		}
+			
+		categories = {
+			electronics
+			computing_tech
+			radar_tech
+		}
+		
+		ai_will_do = {
+			factor = 5
+
+			modifier = {
+				factor = 2
+				tag = SWI
+			}
+			
+			modifier = {
+				factor = 2
+				tag = YUG
+			}
+			
+			modifier = {
+				factor = 2
+				tag = FIN
+			}
+			
+			modifier = {
+				factor = 2
+				tag = EST
+			}
+			
+			modifier = {
+				factor = 2
+				tag = LAT
+			}
+			
+			modifier = {
+				factor = 2
+				tag = BUL
+			}
+			
+			modifier = {
+				factor = 2
+				tag = TUR
+			}
+			
+			modifier = {
+				factor = 2
+				tag = SAU
+			}
+			
+			modifier = {
+				factor = 2
+				tag = PER
+			}
+			
+			modifier = {
+				factor = 2
+				tag = RAJ
+			}
+			
+			modifier = {
+				factor = 2
+				tag = CHI
+			}
+			
+			modifier = {
+				factor = 2
+				tag = BOL
+			}
+			
+			modifier = {
+				factor = 2
+				tag = BRA
+			}
+		}
+	}
+	
+#	boot_camp = {
+#
+#
+#		enable_building = {
+#			building = boot_camp
+#			level = 1
+#		}
+#		
+#		path = {
+#			research_cost_coeff = 1
+#		}
+#		
+#		research_cost = 1
+#		start_year = 1936
+#		
+#		folder = {
+#			name = industry_folder
+#			position = { x = 0 y = 3 }
+#		}
+#			
+#		categories = {
+#			industry
+#			construction_tech
+#		}
+#		
+#		ai_will_do = {
+#			factor = 1
+#		}
+#		
+#		modifier = {
+#				factor = 1
+#				tag = USA
+#			}
+#	}
+#	
+#	flight_school = {
+#
+#
+#		enable_building = {
+#			building = flight_school
+#			level = 1
+#		}
+#		
+#		path = {
+#			research_cost_coeff = 1
+#		}
+#		
+#		research_cost = 1
+#		start_year = 1936
+#		
+#		folder = {
+#			name = industry_folder
+#			position = { x = 0 y = 3 }
+#		}
+#			
+#		categories = {
+#			industry
+#			construction_tech
+#		}
+#		
+#		ai_will_do = {
+#			factor = 1
+#		}
+#		
+#		modifier = {
+#				factor = 1
+#				tag = USA
+#			}
+#	}
+#	
+#	submarine_school = {
+#
+#
+#		enable_building = {
+#			building = submarine_school
+#			level = 1
+#		}
+#		
+#		path = {
+#			research_cost_coeff = 1
+#		}
+#		
+#		research_cost = 1
+#		start_year = 1936
+#		
+#		folder = {
+#			name = industry_folder
+#			position = { x = 0 y = 3 }
+#		}
+#			
+#		categories = {
+#			industry
+#			construction_tech
+#		}
+#		
+#		ai_will_do = {
+#			factor = 1
+#		}
+#		
+#		modifier = {
+#				factor = 1
+#				tag = USA
+#			}
+#	}
+
+#	recruiting_center = {
+#
+#
+#		enable_building = {
+#			building = recruiting_center
+#			level = 1
+#		}
+#		
+#		path = {
+#			research_cost_coeff = 1
+#		}
+#		
+#		research_cost = 1
+#		start_year = 1936
+#		
+#		folder = {
+#			name = industry_folder
+#			position = { x = 0 y = 3 }
+#		}
+#			
+#		categories = {
+#			industry
+#			construction_tech
+#		}
+#		
+#		ai_will_do = {
+#			factor = 1
+#		}
+#		
+#		modifier = {
+#				factor = 1
+#				tag = USA
+#			}
+#	}
+	
+}

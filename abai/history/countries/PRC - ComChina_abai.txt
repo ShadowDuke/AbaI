@@ -1,0 +1,7 @@
+﻿capital = 622
+
+oob = "PRC_1936"
+
+set_technology = {
+	propaganda_complex_communism = 1
+}

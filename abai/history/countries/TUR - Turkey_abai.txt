@@ -1,0 +1,7 @@
+﻿capital = 49
+
+oob = "TUR_1936"
+
+set_technology = {
+	propaganda_complex_neutrality = 1
+}

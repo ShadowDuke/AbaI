@@ -134,7 +134,7 @@ technology_folders = {
 	electronics_folder = {
 		ledger = civilian
 	}
-	special_folder = {
+	abai_folder = {
 		ledger = civilian
 	}
 	#secret_weapons_folder

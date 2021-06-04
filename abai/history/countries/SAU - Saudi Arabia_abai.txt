@@ -1,0 +1,7 @@
+﻿capital = 292
+
+oob = "SAU_1936"
+
+set_technology = {
+	propaganda_complex_neutrality = 1
+}

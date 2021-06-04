@@ -1,0 +1,7 @@
+﻿capital = 110
+
+oob = "NOR_1936"
+
+set_technology = {
+	propaganda_complex_democratism = 1
+}

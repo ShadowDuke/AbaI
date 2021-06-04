@@ -1,0 +1,8 @@
+﻿capital = 611
+
+oob = "MEN_1936"
+
+set_technology = {
+	propaganda_complex_fascism = 1
+	
+}

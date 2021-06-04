@@ -1,0 +1,7 @@
+﻿capital = 111
+
+oob = "FIN_1936"
+
+set_technology = {
+	propaganda_complex_neutrality = 1
+}

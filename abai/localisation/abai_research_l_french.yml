@@ -44,5 +44,5 @@
  INDUSTRY_TITLE_SUPPLY_COMPLEX:0 "APPROVISIONNEMENT"
  INDUSTRY_TITLE_FACTORY:0 "D'ARMEMENT" 
  INDUSTRY_TITLE_PROPAGANDA:0 "PROPAGANDE"
- special_folder:0 "AbaI"
- special_folder_desc:0 "Bâtiments avancés et industrie"
+ abai_folder:0 "AbaI"
+ abai_folder_desc:0 "Bâtiments avancés et industrie"

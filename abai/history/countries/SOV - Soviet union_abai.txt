@@ -6,7 +6,8 @@ oob = "SOV_1936"
 	set_technology = {
 		#industry
 		worker_complex = 1
-}
+		propaganda_complex_communism = 1
+	}
 		
 1939.1.1 = {
 	
@@ -19,7 +20,6 @@ oob = "SOV_1936"
 		heavy_industry1 = 1
 		heavy_industry2 = 1
 		war_complex = 1
-		propaganda_complex_communism = 1
 	}
 }
 

@@ -7,7 +7,8 @@ oob = "GER_1936"
 		#industry
 		worker_complex = 1
 		heavy_industry1 = 1
-}
+		propaganda_complex_fascism = 1
+	}
 		
 1939.1.1 = {
 	
@@ -21,7 +22,6 @@ oob = "GER_1936"
 		heavy_industry2 = 1
 		war_complex = 1
 		supply_complex = 1
-		propaganda_complex_fascism = 1
 
 	}
 }

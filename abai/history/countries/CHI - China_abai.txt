@@ -1,0 +1,7 @@
+﻿capital = 613 # Nanjing
+
+oob = "CHI_1936"
+
+set_technology = {
+	propaganda_complex_neutrality = 1
+}

@@ -38,6 +38,11 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
+		name = "GFX_propaganda_complex_neutrality_medium"
+		texturefile = "gfx/interface/technologies/propaganda_complex_neutrality.dds"
+	}
+	
+	SpriteType = {
 		name = "GFX_chromium_industry1_medium"
 		texturefile = "gfx/interface/technologies/chromium_industry1.dds"
 	}

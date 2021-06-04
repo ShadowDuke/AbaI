@@ -1,0 +1,7 @@
+﻿capital = 3
+
+oob = "SWI_1936"
+
+set_technology = {
+	propaganda_complex_neutrality = 1
+}

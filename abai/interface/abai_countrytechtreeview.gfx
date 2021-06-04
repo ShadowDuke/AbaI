@@ -1,36 +1,30 @@
 spriteTypes = {
 
-#	spriteType = {
-#		name = "GFX_secret_weapons_folder_tab"
-#		textureFile = "gfx//interface//techtree_special_tab.dds"
-#		noOfFrames = 2		
-#	}
-
 	spriteType = {
-		name = "GFX_special_folder_tab"
-		textureFile = "gfx//interface//techtree_special_tab.dds"
+		name = "GFX_abai_folder_tab"
+		textureFile = "gfx//interface//techtree_abai_tab.dds"
 		noOfFrames = 2		
 	}
 
-	##### special tech #####
+	##### AbaI tech #####
 
 	spriteType = {
-		name = "GFX_technology_special_folder_available_item_bg"
+		name = "GFX_technology_abai_folder_available_item_bg"
 		textureFile = "gfx//interface//techtree//tech_doctrine_available_item_bg.dds"
 	}	
 		
 	spriteType = {
-		name = "GFX_technology_special_folder_unavailable_item_bg"
+		name = "GFX_technology_abai_folder_unavailable_item_bg"
 		textureFile = "gfx//interface//techtree//tech_doctrine_unavailable_item_bg.dds"
 	}
 
 	spriteType = {
-		name = "GFX_technology_special_folder_researched_item_bg"
+		name = "GFX_technology_abai_folder_researched_item_bg"
 		textureFile = "gfx//interface//techtree//tech_landdoctrine_researched_item_bg.dds"
 	}	
 
 	frameAnimatedSpriteType = {
-		name = "GFX_technology_special_folder_currently_researching_item_bg"
+		name = "GFX_technology_abai_folder_currently_researching_item_bg"
 		texturefile = "gfx//interface//techtree//tech_doctrine_researching_anim_strip.dds"
 		noOfFrames = 9
 		loadType = "INGAME"
