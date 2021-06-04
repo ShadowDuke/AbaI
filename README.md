@@ -1,4 +1,4 @@
-# Advanced Buildings & Industry (for Hearts of Iron 4)
+# Advanced Buildings & Industry (for Hearts of Iron 4) - Version 1.10.7*
  
  From Steam [here](https://steamcommunity.com/sharedfiles/filedetails/?id=710831586)
  
@@ -14,7 +14,7 @@
 New buildings:
 - Research Center
 - Situation Centre
-- Ministry of propaganda (democraticsm, fascism, communism)
+- Ministry of propaganda (democraticsm, fascism, communism % neutrality)
 - Recruiting Institution Center
 - Boot Camp
 - Flight training School
