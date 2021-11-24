@@ -14,7 +14,7 @@ state={
 			11584 10 
 		}
 		buildings = {
-			infrastructure = 6
+			infrastructure = 3
 			arms_factory = 1
 			war_complex = 1
 			industrial_complex = 4
@@ -30,6 +30,7 @@ state={
 		add_core_of = ITA
 		1939.1.1 = {
 			buildings = {
+				arms_factory = 1
 				dockyard = 2
 				industrial_complex = 5
 				war_complex = 1
@@ -46,4 +47,6 @@ state={
 	}
 	manpower=3963151
 	buildings_max_level_factor=1.000
+
+	local_supplies=5.0 
 }

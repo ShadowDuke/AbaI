@@ -7,5 +7,5 @@ tags={
 	"Graphics"
 	"Ideologies"
 }
-supported_version="1.10.7"
+supported_version="1.11.1"
 remote_file_id="710831586"

@@ -14,7 +14,7 @@ state={
 	history={
 		owner = USA
 		buildings = {
-			infrastructure = 5
+			infrastructure = 3
 			industrial_complex = 3
 			boot_camp = 1
 			flight_school = 1
@@ -29,4 +29,6 @@ state={
 	provinces={
 		913 1758 1987 7615 7791 7797 8014 8083 10281 10615 10657 10824 10909 12501 12670 
 	}
+
+	local_supplies=0.0 
 }

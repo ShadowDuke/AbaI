@@ -14,9 +14,9 @@ state={
 		owner = JAP
 		add_core_of = JAP
 		buildings = {
-			infrastructure = 8
+			infrastructure = 4
 			air_base = 6
-			industrial_complex = 5
+			industrial_complex = 4
 			arms_factory = 2
 			dockyard = 4
 			9998 = {
@@ -30,9 +30,10 @@ state={
 		}
 		1939.1.1 = {
 			buildings = {
-				arms_factory = 4
+				arms_factory = 2
 				dockyard = 4
-				industrial_complex = 6
+				industrial_complex = 5
+				war_complex = 1
 				propaganda_complex_fascism = 1
 			}
 		}
@@ -42,4 +43,6 @@ state={
 	provinces={
 		993 1097 1113 1182 4000 4100 4184 4188 7016 9998 11908 
 	}
+
+	local_supplies=0.0 	
 }

@@ -15,7 +15,7 @@ state={
 		}			
 		owner = SOV
 		buildings = {
-			infrastructure = 5
+			infrastructure = 3
 			boot_camp = 2
 		}
 		add_core_of = SOV
@@ -25,4 +25,6 @@ state={
 	provinces={
 		304 331 360 386 3350 3759 6373 11313 
 	}
+
+	local_supplies=0.0 
 }

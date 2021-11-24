@@ -11,7 +11,7 @@ state={
 			6103 50 
 		}
 		buildings = {
-			infrastructure = 9
+			infrastructure = 5 #was: 9
 			arms_factory = 3
 			industrial_complex = 3
 			dockyard = 1
@@ -26,7 +26,7 @@ state={
 		add_core_of = ENG
 		1939.1.1 = {
 			buildings = {
-				arms_factory = 2
+				arms_factory = 3
 				war_complex = 1
 				worker_complex = 1
 				supply_complex = 1
@@ -39,4 +39,6 @@ state={
 	provinces={
 		6103 9239 11333 11374 
 	}
+
+	local_supplies=0.0 
 }
