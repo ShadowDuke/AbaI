@@ -1,4 +1,4 @@
-# Advanced Buildings & Industry (for Hearts of Iron 4) - Version 1.10.7*
+# Advanced Buildings & Industry (for Hearts of Iron 4) - Version 1.11.1*
  
  From Steam [here](https://steamcommunity.com/sharedfiles/filedetails/?id=710831586)
  
