@@ -12,23 +12,23 @@
 
 
 New buildings:
-- Labour Camp
-- Research Center
-- Situation Centre
-- Ministry of propaganda (democraticsm, fascism, communism % neutrality)
-- Recruiting Institution Center
-- Boot Camp
-- Flight training School
-- Naval training Base
+- Labour Camp (production building)
+- Research Center (production building)
+- Situation Centre (production building)
+- Ministry of propaganda (production building (democraticsm, fascism, communism % neutrality)
+- Recruiting Institution Center (production building)
+- Boot Camp (production building)
+- Flight training School (production building)
+- Naval training Base (production building) +1 dockyard
 - War Factory (production building) +1 military factory
 - Worker Factory (production building) +1 civilian factory
 - Supply Factory (production building) +1 military factory
-- Oil Refineries only produce oil. +7 (prev. +5 oil, +2 rubber)
 - Added Rubber Refineries (tech building). +3 Rubber
 - Added Heavy Steel Industry (tech building). +7 Steel
 - Added Chromium Industry (tech building). +7 Chromium
 - Added Tungsten Industry (tech building). +7 Tungsten
 - Added Aluminium Industry (tech building). +7 Aluminium
+- Oil Refineries only produce oil. +7 (prev. +5 oil, +2 rubber)
 
 **NOTES**
 
