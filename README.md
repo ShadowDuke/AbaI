@@ -12,6 +12,7 @@
 
 
 New buildings:
+- Labour Camp
 - Research Center
 - Situation Centre
 - Ministry of propaganda (democraticsm, fascism, communism % neutrality)
