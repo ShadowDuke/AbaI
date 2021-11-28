@@ -378,10 +378,10 @@ guiTypes = {
 			gridBoxType = {
 				name = "province_building_entries"
 				position = { x = 12 y = 52 }
-				size = { width = 580 height = 90%% }
+				size = { width = 480 height = 90%% }
 				format = "UPPER_LEFT"
-				slotsize = { width = 128 height = 54 }
-				max_slots_horizontal = 4
+				slotsize = { width = 109 height = 54 }
+				max_slots_horizontal = 5
 			}
 			
 			buttonType = {
