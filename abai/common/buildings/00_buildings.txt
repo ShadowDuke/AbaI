@@ -498,7 +498,7 @@ buildings = {
 		
 	labour_camp = {
 		show_on_map = 0
-		base_cost = 100
+		base_cost = 10600
 		icon_frame = 35
 		max_level = 1
 		shares_slots = yes
