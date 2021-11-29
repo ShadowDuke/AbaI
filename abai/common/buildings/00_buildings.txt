@@ -498,7 +498,7 @@ buildings = {
 		
 	labour_camp = {
 		show_on_map = 0
-		base_cost = 10600
+		base_cost = 8800
 		icon_frame = 35
 		max_level = 1
 		shares_slots = yes
@@ -509,7 +509,7 @@ buildings = {
 		production_factory_efficiency_gain_factor = 0.02
 		production_factory_max_efficiency_factor = 0.02
 		production_factory_start_efficiency_factor = 0.02
-		conscription_factor = 0.03
+		conscription_factor = 0.04
 		#local_manpower = -0.1						#Percentual
 		#local_non_core_manpower  = -0.1
 		#non_core_manpower = 0.3					#Percentual
