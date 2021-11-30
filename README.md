@@ -23,6 +23,7 @@ New buildings:
 - War Factory (production building) +1 military factory
 - Worker Factory (production building) +1 civilian factory
 - Supply Factory (production building) +1 military factory
+- Pillbox (province building)
 - Added Rubber Refineries (tech building). +3 Rubber
 - Added Heavy Steel Industry (tech building). +7 Steel
 - Added Chromium Industry (tech building). +7 Chromium
