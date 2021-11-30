@@ -1,4 +1,4 @@
-﻿l_braz_por:
+﻿l_english:
  research_complex:0 "Research Center"
  research_complex_plural:0 "Research Centers"
  research_complex_desc:0 "A building for our scientits."
@@ -72,9 +72,9 @@
  steel_mill_desc:0 "This building enables us to build heavy steel-industry"
  steel_mill_amount:0 "$VALUE|Y0=$"
  steel_mill_resource:0 "£resources_strip|$FRAME$" 
- #pillbox:0 "Pillbox"
- #pillbox_plural:0 "Pillboxes"
- #pillbox_desc:0 "This building is helping to stop the enemy a little."
+ pillbox:0 "Pillbox"
+ pillbox_plural:0 "Pillboxes"
+ pillbox_desc:0 "This building is helping to stop the enemy a little."
  labour_camp:0 "Labour Camp"
  labour_camp_plural:0 "Labour Camps"
  labour_camp_desc:0 "This building is holding people to do hard labour for us."
