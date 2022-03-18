@@ -8,5 +8,5 @@ tags={
 	"Ideologies"
 }
 picture="thumbnail.png"
-supported_version="1.11.*"
+supported_version="1.11.9"
 remote_file_id="710831586"
